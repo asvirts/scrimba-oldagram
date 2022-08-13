@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#user-post {
+    padding: 0;
+    margin: 0;
+}
+
+#user-profile {
+    margin: 0;
+    padding: 0;
+}
+
+.post {
+    height: auto;
+    width: 100%;
+}
+
+
+/* Containers */
+
+.container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 0 0 1em;
+    padding: 0;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1em;
+    padding: 0;
+}
+
+
+/* Images */
+
+.avatar {
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+}
+
+#user {
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logo {
+    flex-direction: column;
+    height: auto;
+    width: 12em;
+}
